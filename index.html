@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Password Generate</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="tilte">Password Generator</h2>
+      <div class="password box"></div>
+      <div class="setting box length">
+        <label for="">LENGTH: <span class="num">12</span></label>
+        <input class="range" type="range" value="12" max="20" min="6" />
+      </div>
+      <div class="setting box">
+        <label for="">Include Uppercase</label>
+        <div class="btn upper active">
+          <span></span>
+        </div>
+      </div>
+      <div class="setting box">
+        <label for="">Include Lowercase</label>
+        <div class="btn lower active">
+          <span></span>
+        </div>
+      </div>
+      <div class="setting box">
+        <label for="">Include Numbers</label>
+        <div class="btn numbers active">
+          <span></span>
+        </div>
+      </div>
+      <div class="setting box">
+        <label for="">Include Symbols</label>
+        <div class="btn symbols active">
+          <span></span>
+        </div>
+      </div>
+      <button class="box button">Generate Password</button>
+    </div>
+    <script src="./custom.js"></script>
+  </body>
+</html>
